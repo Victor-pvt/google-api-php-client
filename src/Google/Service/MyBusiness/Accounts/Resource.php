@@ -6,8 +6,6 @@
  * Time: 13:16
  */
 
-namespace AppBundle\GoogleMyBusiness\Service;
-
 use AppBundle\GoogleMyBusiness\Model\Google_Service_MyBusiness_MybusinessEmpty;
 use AppBundle\GoogleMyBusiness\Model\Google_Service_MyBusiness_GenerateAccountNumberRequest;
 use AppBundle\GoogleMyBusiness\Model\Google_Service_MyBusiness_Account;

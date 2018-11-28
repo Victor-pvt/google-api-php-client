@@ -1,8 +1,5 @@
 <?php
 
-namespace AppBundle\GoogleMyBusiness;
-
-use Google_Client;
 use AppBundle\GoogleMyBusiness\Service\Google_Service_MyBusiness_Accounts_Resource;
 use AppBundle\GoogleMyBusiness\Service\Google_Service_MyBusiness_AccountsAdmins_Resource;
 use AppBundle\GoogleMyBusiness\Service\Google_Service_MyBusiness_AccountsInvitations_Resource;
