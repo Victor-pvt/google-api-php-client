@@ -25,7 +25,7 @@ class Google_Service_MyBusiness_Item extends Google_Collection
     {
         return $this->itemId;
     }
-    public function setLabels($labels)
+    public function setLabels(Google_Service_MyBusiness_Label $labels)
     {
         $this->labels = $labels;
     }

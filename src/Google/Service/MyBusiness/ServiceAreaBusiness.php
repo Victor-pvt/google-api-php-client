@@ -9,8 +9,7 @@
 
 class Google_Service_MyBusiness_ServiceAreaBusiness extends Google_Model
 {
-    protected $internal_gapi_mappings = array(
-    );
+    protected $internal_gapi_mappings = [];
     public $businessType;
     protected $placesType = 'Google_Service_MyBusiness_Places';
     protected $placesDataType = '';

@@ -9,8 +9,7 @@
 
 class Google_Service_MyBusiness_Metadata extends Google_Model
 {
-    protected $internal_gapi_mappings = array(
-    );
+    protected $internal_gapi_mappings = [];
     protected $duplicateType = 'Google_Service_MyBusiness_Duplicate';
     protected $duplicateDataType = '';
     public $mapsUrl;

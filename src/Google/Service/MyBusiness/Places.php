@@ -15,7 +15,7 @@ class Google_Service_MyBusiness_Places extends Google_Collection
     protected $placeInfosDataType = 'array';
 
 
-    public function setPlaceInfos($placeInfos)
+    public function setPlaceInfos(Google_Service_MyBusiness_PlaceInfo $placeInfos)
     {
         $this->placeInfos = $placeInfos;
     }

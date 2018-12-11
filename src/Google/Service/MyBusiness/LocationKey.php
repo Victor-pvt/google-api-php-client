@@ -8,8 +8,7 @@
 
 class Google_Service_MyBusiness_LocationKey extends Google_Model
 {
-    protected $internal_gapi_mappings = array(
-    );
+    protected $internal_gapi_mappings = [];
     public $explicitNoPlaceId;
     public $placeId;
     public $plusPageId;

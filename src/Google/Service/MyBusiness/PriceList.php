@@ -18,7 +18,7 @@ class Google_Service_MyBusiness_PriceList extends Google_Collection
     public $sourceUrl;
 
 
-    public function setLabels($labels)
+    public function setLabels(Google_Service_MyBusiness_Label $labels)
     {
         $this->labels = $labels;
     }
@@ -34,7 +34,7 @@ class Google_Service_MyBusiness_PriceList extends Google_Collection
     {
         return $this->priceListId;
     }
-    public function setSections($sections)
+    public function setSections(Google_Service_MyBusiness_Section $sections)
     {
         $this->sections = $sections;
     }

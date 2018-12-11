@@ -60,7 +60,7 @@ class Google_Service_MyBusiness_Location extends Google_Collection
     {
         return $this->adWordsLocationExtensions;
     }
-    public function setAdditionalCategories($additionalCategories)
+    public function setAdditionalCategories(Google_Service_MyBusiness_Category $additionalCategories)
     {
         $this->additionalCategories = $additionalCategories;
     }
@@ -84,7 +84,7 @@ class Google_Service_MyBusiness_Location extends Google_Collection
     {
         return $this->address;
     }
-    public function setAttributes($attributes)
+    public function setAttributes(Google_Service_MyBusiness_Attribute $attributes)
     {
         $this->attributes = $attributes;
     }
@@ -164,7 +164,7 @@ class Google_Service_MyBusiness_Location extends Google_Collection
     {
         return $this->openInfo;
     }
-    public function setPriceLists($priceLists)
+    public function setPriceLists(Google_Service_MyBusiness_PriceList$priceLists)
     {
         $this->priceLists = $priceLists;
     }

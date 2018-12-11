@@ -17,7 +17,7 @@ class Google_Service_MyBusiness_Section extends Google_Collection
     public $sectionId;
 
 
-    public function setItems($items)
+    public function setItems(Google_Service_MyBusiness_Item $items)
     {
         $this->items = $items;
     }
@@ -25,7 +25,7 @@ class Google_Service_MyBusiness_Section extends Google_Collection
     {
         return $this->items;
     }
-    public function setLabels($labels)
+    public function setLabels(Google_Service_MyBusiness_Label $labels)
     {
         $this->labels = $labels;
     }

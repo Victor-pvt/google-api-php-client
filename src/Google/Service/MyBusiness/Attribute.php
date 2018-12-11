@@ -9,8 +9,7 @@
 class Google_Service_MyBusiness_Attribute extends Google_Collection
 {
     protected $collection_key = 'values';
-    protected $internal_gapi_mappings = array(
-    );
+    protected $internal_gapi_mappings = [];
     public $attributeId;
     protected $repeatedEnumValueType = 'Google_Service_MyBusiness_RepeatedEnumAttributeValue';
     protected $repeatedEnumValueDataType = '';
@@ -36,7 +35,7 @@ class Google_Service_MyBusiness_Attribute extends Google_Collection
     {
         return $this->repeatedEnumValue;
     }
-    public function setUrlValues($urlValues)
+    public function setUrlValues(Google_Service_MyBusiness_UrlAttributeValue $urlValues)
     {
         $this->urlValues = $urlValues;
     }

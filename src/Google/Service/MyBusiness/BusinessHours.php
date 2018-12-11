@@ -16,7 +16,7 @@ class Google_Service_MyBusiness_BusinessHours extends Google_Collection
     protected $periodsDataType = 'array';
 
 
-    public function setPeriods($periods)
+    public function setPeriods(Google_Service_MyBusiness_TimePeriod $periods)
     {
         $this->periods = $periods;
     }

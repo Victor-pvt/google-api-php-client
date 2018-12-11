@@ -15,7 +15,7 @@ class Google_Service_MyBusiness_SpecialHours extends Google_Collection
     protected $specialHourPeriodsDataType = 'array';
 
 
-    public function setSpecialHourPeriods($specialHourPeriods)
+    public function setSpecialHourPeriods(Google_Service_MyBusiness_SpecialHourPeriod $specialHourPeriods)
     {
         $this->specialHourPeriods = $specialHourPeriods;
     }
